@@ -58,7 +58,7 @@ const XlsxToJson = () => {
         return(
           json.map((item) => (
             <pre>
-        {StrictNumberChars(`1D${AddZeros(item.ContaCapital,9)}${item.NomeCliente}`,19)}
+        {StrictNumberChars(`1D${AddZeros(item.ContaCapital,9)}${item.NomeCliente}`,47)}
         {`    `}
         {`00000000000000            `}
         {AddZeros(`${item.ContaCapital}`,12)}
