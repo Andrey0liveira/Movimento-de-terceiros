@@ -120,7 +120,7 @@ const XlsxToJson = () => {
 
             {MapValues()}
             
-            {StrictNumberChars(`9${AddZeros(json[0].TotalLinhas,4)}${FormatValue(json[0].ValorTotal)}`, 199)}
+            {StrictNumberChars(`9${AddZeros(json[0].TotalLinhas,4)}${FormatValue(json[0].ValorTotal.toFixed(2)).padEnd(38, '0')}`, 199)}
             {`\u000A`}
       </pre>   
     </div>
