@@ -64,6 +64,8 @@ const XlsxToJson = () => {
         {AddZeros(`${item.ContaCapital}`,12)}
         {`                    `}
         {FormatValue(`${item.ValorIntegralizaçãoFolha}   `)}
+        {FormatValue('${item.ValorIntegralizaçãoFolha}  ')}
+        {''.repeat(14)}Pagto Parcela de Emprestimo 
         {`                                                                        `}
         </pre>
         ))
